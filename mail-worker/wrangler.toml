@@ -6,10 +6,9 @@ keep_vars = true
 [observability]
 enabled = true
 
-#[[d1_databases]]
-#binding = "db"			#d1数据库绑定名默认不可修改
-#database_name = ""		#d1数据库名字
-#database_id = ""		#d1数据库id
+[[d1_databases]]
+binding = "db"
+database_id = "490e57d9-b86c-4957-a1a2-3b6298dc379d"
 
 [[kv_namespaces]]
 binding = "kv"
