@@ -1,18 +1,10 @@
-name = "cloud-mail"
+name = "toomail"
 main = "src/index.js"
 compatibility_date = "2025-06-04"
 keep_vars = true
 
 [observability]
 enabled = true
-
-[[d1_databases]]
-binding = "db"
-database_id = "490e57d9-b86c-4957-a1a2-3b6298dc379d"
-
-[[kv_namespaces]]
-binding = "kv"
-id = "9f61b5e3527041348214b1977c689424"
 
 #[[r2_buckets]]
 #binding = "r2"			#r2对象存储绑定名默认不可修改
